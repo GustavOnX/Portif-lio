@@ -19,4 +19,5 @@ body {
     height: 100vh;
     background-color: var(--fundo);
     font-family: var(--fonte-principal);
+    overflow: visible;
 }
