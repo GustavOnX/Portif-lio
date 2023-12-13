@@ -74,14 +74,9 @@
     font-size: 0.8em;
     letter-spacing: 0.2em;
     font-weight: 600;
+    text-shadow: 3px 3px 10px var(--preto);
 }
-
-.lista-menu__link:hover {
-    color: var(--preto);
-}
-
 .lista-menu__titulo:hover {
     background-color: rgba(255, 255, 255, 0.158);
-    
-    color: var(--preto);
+    border: 1px solid #FF8660;    
 }
