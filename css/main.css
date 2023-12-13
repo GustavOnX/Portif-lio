@@ -1,3 +1,7 @@
+.container__main {
+    padding-top: 50px;
+}
+
 .container__logo-avatar{
     width: 100vw;
     position: relative;
