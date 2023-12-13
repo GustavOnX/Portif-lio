@@ -1,0 +1,22 @@
+@import url("./css/header.css");
+@import url("./css/main.css");
+@import url("./css/experiencia.css");
+@import url("./css/projetos.css");
+@import url("./css/rodape.css");
+:root {
+    --fundo: #161513;
+    --preto: #222;
+    --branco: #ffffff;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Inter";
+    --paragrafo: #c5c5c5;
+    --cardColor:#2A2A2A;
+    
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--fundo);
+    font-family: var(--fonte-principal);
+}

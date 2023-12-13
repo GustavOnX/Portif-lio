@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio v.10</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__logo">
+            <img src="imagens/cabecalho__logo.png" alt="Logo cabeçalho">
+        </div>
+        <div class="container">
+            <input type="checkbox"  id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="material-symbols-outlined cabecalho__menu-hamburguer">menu</span>
+            </label>
+            <ul class="cabecalho__menu">
+                <li class="lista-titulo">MENU</li>
+
+                <li class="lista-menu__titulo">
+                    <a class="lista-menu__link" href="#">Home</a>
+                </li>
+                <li class="lista-menu__titulo">
+                    <a class="lista-menu__link" href="#">Projects</a>
+                </li>
+                <li class="lista-menu__titulo">
+                    <a class="lista-menu__link" href="#">Experiencs</a>
+                </li>
+                <li class="lista-menu__titulo">
+                    <a class="lista-menu__link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container__main">
+            <div class="container__logo-avatar">
+                <img class="container__fundo" src="imagens/Avatar Background.svg" alt="fundo">
+                <img class="container__img" src="imagens/avatar.png" alt="avatar-Gustavo">
+            </div>
+        </div>
+        <div class="container__titulos">
+            <h2 class="container__titulo">Welcome !
+                My name is Gustavo. I am 29 years old and work as a <b class="container__negrito">Full-Stack Developer</b> 
+            </h2>
+            <p class="container_paragrafo">
+                I am a full stack software developer, wanting you to give me the chance to gain professional experience for a career that I am so ambitious to pursue. I have front-end and Javascript projects and developing projects with Node.js and React.
+            </p>
+        </div>
+        <div class="container__button">
+            <button class="button__item">
+                Get In Touch
+            </button>
+            <button class="button__item transparente">
+                Download CV
+            </button>
+        </div>
+        <div class="experiencia">
+            <h2 class="experiencia__titulo">Experience with</h2>
+            <ul class="experiencia__lista">
+                <li class="experiencia__item">
+                    <img src="imagens/javascript-icon.svg" alt="javaScript">
+                </li>
+                <li class="experiencia__item">
+                    <img src="imagens/nodejs-icon.svg" alt="node.js">
+                </li>
+                <li class="experiencia__item">
+                    <img src="imagens/html-icon.svg" alt="Html">
+                </li>
+                <li class="experiencia__item">
+                    <img src="imagens/css-icon.svg" alt="CSS">
+                </li>
+                <li class="experiencia__item">
+                    <img src="imagens/reactjs-icon.svg" alt="React">
+                </li>
+            </ul>
+        </div>
+        <div class="projetos">
+            <h2 class="projetos__titulo">Projetos</h2>
+            <div class="projeto__item">
+                <img class="projeto__imagem" src="imagens/project-html.png" alt="projeto Html">
+                <div class="projeto__text-card">
+                    <p class="projeto__paragrafo">
+                        <span class="projeto__span">CLICK HERE TO VISIT</span><br>
+                        CSS CODE
+                    </p>
+                    <img class="projeto__seta" src="imagens/view icon.svg" alt="view icone">
+                </div>
+            </div>
+            <div class="projeto__item">
+                <img class="projeto__imagem" src="imagens/project-css.png" alt="projeto Html">
+                <div class="projeto__text-card">
+                    <p class="projeto__paragrafo">
+                        <span class="projeto__span">CLICK HERE TO VISIT</span><br>
+                        CSS CODE
+                    </p>
+                    <img class="projeto__seta" src="imagens/view icon.svg" alt="view icone">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Contact</h2>
+        <ul class="rodape__lista">
+            <li class="rodape__item">
+                <img class="rodape__imagem" src="imagens/icone-phone.png" alt="telefone">
+                <p class="rodape__paragrafo">Phone </p>
+            </li>
+            <li class="rodape__item">
+                <img class="rodape__imagem" src="imagens/icone-git-hub.png" alt="git-hub">
+                <p class="rodape__paragrafo">GitHub </p>
+            </li>
+            <li class="rodape__item">
+                <img class="rodape__imagem" src="imagens/incone-linkedin.png" alt="Linkedin">
+                <p class="rodape__paragrafo">Linkedin</p>
+            </li>
+            <li class="rodape__item">
+                <img class="rodape__imagem" src="imagens/icone-email.png" alt="e-mail">
+                <p class="rodape__paragrafo">E-mail</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

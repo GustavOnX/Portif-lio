@@ -1,0 +1,21 @@
+.experiencia__titulo {
+    color: var(--paragrafo);
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 2em 0;
+    font-weight: 600;
+    letter-spacing: 2.4px;
+    text-align: center;
+}
+
+.experiencia__lista {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.projeto__paragrafo {
+    color: var(--branco);
+}

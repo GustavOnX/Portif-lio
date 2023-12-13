@@ -1,0 +1,68 @@
+.container__logo-avatar{
+    width: 100vw;
+    position: relative;
+    margin: 1em 0 0 0;
+    display: flex;
+    justify-content: center;
+
+}
+.container__fundo {
+    width: 70vw;
+}
+.container__img {
+    width: 68vw;
+    position: absolute;
+    right: 15%;
+    top: 3%;    
+}
+
+.container__titulos{
+    text-align: center;
+    padding: 2em;
+}
+
+.container__titulo {
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: var(--branco);
+}
+.container__negrito {
+    background: linear-gradient(116deg, #FF8660 71.79%, #9A33FF 95.51%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container_paragrafo {
+    color: var(--paragrafo);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    margin-top: 2em;
+}
+.container__button {
+    text-align: center;
+}
+
+.button__item {
+    width: 195px;
+    height: 64px;
+    border-radius: 50px;
+    border: 1px solid var(--branco);
+    background: var(--branco);
+    color: var(--preto);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: normal;
+    margin-top: 10px;
+}
+.transparente {
+    background-color: transparent;
+    color: var(--branco);
+}

@@ -1,0 +1,48 @@
+.rodape {
+    padding: 1em;
+}
+.rodape__lista {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+
+.rodape__titulo {
+    font-family: var(--fonte-principal);
+    text-align: center;
+    font-size: 35px;
+    padding: 1em 0;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 35.748px;
+    text-transform: uppercase;
+    background: var(--Orange-Gradient, linear-gradient(180deg, #FF8660 0%, #D5491D 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.rodape__item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid var(--paragrafo);
+    padding: 1em 0;
+    margin-top: 5px;
+    border-radius: 15px;
+    background: var(--branco);
+}
+.rodape__imagem {
+    width: 10vw;
+}
+.rodape__paragrafo {
+    color: var(--preto);
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    
+}
