@@ -1,6 +1,7 @@
 .projetos {
+    width: 95%;
     margin: auto;
-    padding: 2em 2em 0 2em;
+    padding: 2em 0 0 0;
 }
 
 .projetos__titulo {
@@ -15,6 +16,7 @@
     line-height: 35.748px; 
     text-transform: uppercase;
     text-align: center;
+    padding-bottom: 1em;
     }
 
 .projeto__item {
@@ -22,7 +24,8 @@
     height: 201px;
     border-radius: 18px;
     background-color: var(--cardColor);
-    margin: 3em 0 0 0;
+    margin: auto;
+    margin-bottom: 14px;
     padding-bottom: 3em;
 }
 .projeto__imagem {
