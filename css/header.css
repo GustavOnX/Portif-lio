@@ -32,6 +32,8 @@
     top: 100%;
     right: 0.1%;
     width: 50vw;
+    z-index: 100;
+    border: 1px solid var(--card-color);
 }
 .container__botao:checked~.cabecalho__menu {
     display: block;
@@ -52,10 +54,15 @@
 .lista-titulo {
     text-align: center;
     color: var(--branco);
-    font-size: 1.5em;
+    font-size: 0.8em;
     letter-spacing: 0.3em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: linear-gradient(to left, #222222, #252a6c);
+    font-weight: 800;
+    font-family: var(--fonte-secundaria);
+    background-color: var(--preto);
+    background: linear-gradient(116deg, #FF8660 71.79%, #9A33FF 95.51%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
     
 }
@@ -63,18 +70,18 @@
     color: var(--branco);
     text-transform: uppercase;
     text-decoration: none;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Times New Roman', Times, serif;
-    font-size: 1.2em;
+    font-family:var(--fonte-principal);
+    font-size: 0.8em;
     letter-spacing: 0.2em;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .lista-menu__link:hover {
-    background: linear-gradient();
     color: var(--preto);
 }
 
 .lista-menu__titulo:hover {
-    background-color: white;
-    border: 1px solid #222222;
+    background-color: rgba(255, 255, 255, 0.158);
+    
+    color: var(--preto);
 }
